@@ -1,61 +1,39 @@
 body {
-    margin:0;
-    padding:0;
-    font-family: Arial, Verdana, sans-serif;
-
-    background-image:
-        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
-        url('https://img.freepik.com/fotos-premium/silhuetas-pretas-de-soldados_1443-154.jpg');
-
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, sans-serif;
+    background: #0b0b0b url('https://img.freepik.com/fotos-premium/silhuetas-pretas-de-soldados_1443-154.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
+    color: #ffffff;
 }
 
-/* tabela principal */
 table {
     width: 92%;
     margin: 20px auto;
     border-collapse: collapse;
-
-    color: white;
-
-    background: rgba(6, 6, 6, 0.75);
-    border-radius: 6px;
+    background-color: #111111;
+    color: #ffffff;
 }
 
-/* células */
-td {
-    text-shadow: 0px 1px 3px black;
+tr#a {
+    background-color: #1a1a1a;
+}
+
+tr#b {
+    background-color: #141414;
+}
+
+tr#c {
+    background-color: #000000;
+}
+
+td, th {
+    padding: 6px 8px;
     text-align: center;
     color: #ffffff;
-    padding: 6px;
-}
-
-/* colunas pares */
-td:nth-child(even) {
-    background: rgba(255, 255, 255, 0.04);
-    text-shadow: 0px 2px 5px rgba(0,0,0,.6);
-    font-weight: 800;
-    color: #e94546;
-}
-
-/* linhas alternadas */
-#a {
-    background: rgba(0, 0, 0, 0.55);
-    text-shadow: 0px 2px 5px rgba(0,0,0,.5);
-    font-weight: 800;
+    font-weight: bold;
 }
 
 #b {
-    text-align: center;
-    text-shadow: 0px 1px 3px black;
-    color: #cfcfcf;
-}
-
-/* cabeçalho */
-#c {
-    height: 30px;
-    background: rgba(0, 0, 0, 0.85);
-    font-weight: bold;
+    color: #d8d8d8;
 }
