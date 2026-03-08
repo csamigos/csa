@@ -1,37 +1,43 @@
 body {
     margin: 0;
     padding: 0;
+    background: #0d0d0d;
     font-family: Verdana, Arial, sans-serif;
-    background: #0b0b0b url('https://img.freepik.com/fotos-premium/silhuetas-pretas-de-soldados_1443-154.jpg') no-repeat center center fixed;
-    background-size: cover;
     color: #ffffff;
 }
 
-/* ocupar toda largura do MOTD */
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: rgba(10,10,10,0.92);
+    background: #111111;
 }
 
 /* cabeçalho */
 #c {
     background: #000000;
+}
+
+#c th {
+    color: #f7b500;
     font-weight: bold;
 }
 
-/* linhas alternadas */
+/* linhas */
 #a {
-    background: rgba(255,255,255,0.04);
+    background: #1a1a1a;
 }
 
 #b {
-    background: rgba(255,255,255,0.02);
+    background: #141414;
 }
 
 td, th {
-    padding: 6px 4px;
+    padding: 6px 8px;
     text-align: center;
-    color: #ffffff;
     font-weight: bold;
+}
+
+/* nome dos jogadores */
+td:nth-child(2) {
+    color: #e6e6e6;
 }
