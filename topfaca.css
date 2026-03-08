@@ -1,81 +1,43 @@
-body{
-    margin:0;
-    padding:0;
-    background:#0b0b0b;
-    font-family:Verdana, Arial, sans-serif;
-    color:#fff;
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d0d0d;
+    font-family: Verdana, Arial, sans-serif;
+    color: #ffffff;
 }
 
-/* tabela principal */
-table{
-    width:100%;
-    border-collapse:collapse;
-    background:#111;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #111111;
 }
 
 /* cabeçalho */
-#c{
-    background:#000;
+#c {
+    background: #000000;
 }
 
-#c th{
-    padding:8px;
-    font-size:14px;
-    color:#f7b500;
-    letter-spacing:1px;
-    border-bottom:2px solid #222;
+#c th {
+    color: #f7b500;
+    font-weight: bold;
 }
 
 /* linhas */
-#a{
-    background:#1a1a1a;
+#a {
+    background: #1a1a1a;
 }
 
-#b{
-    background:#141414;
+#b {
+    background: #141414;
 }
 
-#a:hover,
-#b:hover{
-    background:#222;
+td, th {
+    padding: 6px 8px;
+    text-align: center;
+    font-weight: bold;
 }
 
-/* células */
-td{
-    padding:7px;
-    font-weight:bold;
-}
-
-/* coluna jogadores */
-td:nth-child(2){
-    color:#e6e6e6;
-}
-
-/* destaque TOP 3 */
-
-/* 1º lugar */
-tr:nth-child(2){
-    background:#3a2f00;
-}
-
-tr:nth-child(2) td{
-    color:#ffd700;
-}
-
-/* 2º lugar */
-tr:nth-child(3){
-    background:#2a2a2a;
-}
-
-tr:nth-child(3) td{
-    color:#d6d6d6;
-}
-
-/* 3º lugar */
-tr:nth-child(4){
-    background:#332000;
-}
-
-tr:nth-child(4) td{
-    color:#ffb347;
+/* nome dos jogadores */
+td:nth-child(2) {
+    color: #e6e6e6;
 }
