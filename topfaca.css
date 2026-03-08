@@ -5,25 +5,36 @@ body{
     font-family:Verdana, Arial, sans-serif;
     color:#fff;
 }
+
 table{
     width:100%;
     border-collapse:collapse;
     background:#111;
     border:1px solid #b78a00;
 }
-.c th{
+
+/* cabeçalho */
+#c{
     background:#050505;
+}
+
+#c th{
     color:#f0b400;
     padding:6px;
     font-size:13px;
     border-bottom:1px solid #2a2a2a;
 }
-.a{
+
+/* linhas alternadas */
+#a{
     background:#181818;
 }
-.b{
+
+#b{
     background:#121212;
 }
+
+/* células */
 td{
     padding:6px;
     text-align:center;
@@ -31,6 +42,13 @@ td{
     color:#e8e8e8;
     border-bottom:1px solid #2a2a2a;
 }
+
+/* nome do jogador */
+td:nth-child(2){
+    color:#ffffff;
+}
+
+/* coluna do ranking */
 td:first-child{
     color:#f0b400;
 }
