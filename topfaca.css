@@ -1,6 +1,6 @@
 body{
     margin:0;
-    padding:0;
+    padding:12px;
     background:#0b0b0b;
     font-family:Verdana, Arial, sans-serif;
     color:#fff;
@@ -11,44 +11,73 @@ table{
     border-collapse:collapse;
     background:#111;
     border:1px solid #b78a00;
+    box-shadow:0 0 18px rgba(0,0,0,0.45);
 }
 
 /* cabeçalho */
-#c{
-    background:#050505;
+thead tr{
+    background:linear-gradient(to bottom, #080808, #030303);
 }
 
-#c th{
+thead th{
     color:#f0b400;
-    padding:6px;
+    padding:8px 6px;
     font-size:13px;
-    border-bottom:1px solid #2a2a2a;
+    text-align:center;
+    border-top:1px solid #2e2200;
+    border-bottom:1px solid #3a2b00;
+    letter-spacing:0.3px;
 }
 
-/* linhas alternadas */
-#a{
+/* linhas */
+tr.row-a{
     background:#181818;
 }
 
-#b{
+tr.row-b{
     background:#121212;
+}
+
+/* hover opcional */
+tr.row-a:hover,
+tr.row-b:hover{
+    background:#1f1f1f;
 }
 
 /* células */
 td{
-    padding:6px;
+    padding:7px 6px;
     text-align:center;
     font-weight:bold;
     color:#e8e8e8;
-    border-bottom:1px solid #2a2a2a;
+    border-top:1px solid #202020;
+    border-bottom:1px solid #2b2b2b;
+}
+
+/* ranking */
+td.col-rank{
+    color:#f0b400;
+    width:52px;
 }
 
 /* nome do jogador */
-td:nth-child(2){
+td.col-player{
+    color:#ffffff;
+    text-align:left;
+    padding-left:10px;
+}
+
+/* kills */
+td.col-kills{
     color:#ffffff;
 }
 
-/* coluna do ranking */
-td:first-child{
+/* deaths */
+td.col-deaths{
+    color:#d8d8d8;
+}
+
+/* kdr */
+td.col-kdr{
     color:#f0b400;
 }
