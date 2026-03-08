@@ -14,7 +14,6 @@ table{
     box-shadow:0 0 18px rgba(0,0,0,0.45);
 }
 
-/* cabeçalho */
 thead tr{
     background:linear-gradient(to bottom, #080808, #030303);
 }
@@ -29,7 +28,6 @@ thead th{
     letter-spacing:0.3px;
 }
 
-/* linhas */
 tr.row-a{
     background:#181818;
 }
@@ -38,13 +36,11 @@ tr.row-b{
     background:#121212;
 }
 
-/* hover opcional */
 tr.row-a:hover,
 tr.row-b:hover{
     background:#1f1f1f;
 }
 
-/* células */
 td{
     padding:7px 6px;
     text-align:center;
@@ -54,30 +50,25 @@ td{
     border-bottom:1px solid #2b2b2b;
 }
 
-/* ranking */
 td.col-rank{
     color:#f0b400;
     width:52px;
 }
 
-/* nome do jogador */
 td.col-player{
     color:#ffffff;
     text-align:left;
     padding-left:10px;
 }
 
-/* kills */
 td.col-kills{
     color:#ffffff;
 }
 
-/* deaths */
 td.col-deaths{
     color:#d8d8d8;
 }
 
-/* kdr */
 td.col-kdr{
     color:#f0b400;
 }
